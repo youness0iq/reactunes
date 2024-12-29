@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {  useSearchParams } from "react-router-dom";
-import { carsData } from "../../../allcars";
+import { carsData } from "../../allcars";
 
 function CartCategory() {
     const [searchParams] = useSearchParams();

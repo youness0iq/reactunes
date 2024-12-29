@@ -1,9 +1,9 @@
 
-import hatch from "../imicon/src/assets/hatchback.jpg"
-import coupe from "../imicon/src/assets/coupe.jpg"
-import sedan from "../imicon/src/assets/sedan.jpg"
-import luxury from "../imicon/src/assets/luxury.jpg"
-import suv from "../imicon/src/assets/tucson.jpg"
+import hatch from "./src/assets/hatchback.jpg"
+import coupe from "./src/assets/coupe.jpg"
+import sedan from "./src/assets/sedan.jpg"
+import luxury from "./src/assets/luxury.jpg"
+import suv from "./src/assets/tucson.jpg"
 
 
 export const category = [
