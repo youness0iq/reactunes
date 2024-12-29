@@ -6,6 +6,8 @@ import CarCategory from './pages/car-category/CarCategory';
 import Shop from './pages/Shop/Shop';
 import Cart from './pages/Cart/Cart';
 import Contact from './pages/Contact/Contact';
+import Signup from './pages/Signup/Signup';
+import Login from './pages/Login/Login';
 
 // Add error boundary component
 const ErrorBoundary = () => {
@@ -31,8 +33,10 @@ function App() {
             <Route path="/cars" element={<CarCategory />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/contact" element={<Contact />} /> {/* Fixed capitalization */}
-            <Route path="*" element={<ErrorBoundary />} /> {/* Catch-all route for 404s */}
+            <Route path="/contact" element={<Contact />} /> 
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="*" element={<ErrorBoundary />} />
           </Routes>
         </main>
         <Footer />

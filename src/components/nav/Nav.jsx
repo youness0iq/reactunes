@@ -12,8 +12,8 @@ function Nav() {
         </Link>
         
         <form className="search-box" onSubmit={(e) => e.preventDefault()}>
-          <input 
-            type="text" 
+          <input
+            type="text"
             placeholder="Search car"
             aria-label="Search for cars"
           />
@@ -21,11 +21,22 @@ function Nav() {
             <FaSearch />
           </button>
         </form>
-        
-        <Link to="/cart" className="cart-box">
-          <FaShoppingCart aria-label="Shopping cart" />
-          <span className="cart-count">0</span>
-        </Link>
+
+        <div className="nav-right">
+          <div className="auth-buttons">
+            <Link to="/signup" className="signup-btn">
+              Sign Up
+            </Link>
+            <Link to="/login" className="login-btn">
+              Login
+            </Link>
+          </div>
+          
+          <Link to="/cart" className="cart-box">
+            <FaShoppingCart aria-label="Shopping cart" />
+            <span className="cart-count">0</span>
+          </Link>
+        </div>
       </div>
 
       <ul className="bottom-nav">
